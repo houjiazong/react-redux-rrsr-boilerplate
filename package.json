@@ -1,14 +1,15 @@
 {
-  "name": "react-redux-boilerplate",
+  "name": "react-redux-rrsr-boilerplate",
   "version": "1.0.0",
-  "description": "webpack-react-redux-babel-autoprefixer-hmr-postcss-css-modules-eslint-proxy-boilerplate",
+  "description": "webpack-react-redux-universal-isomorphic-rendering-babel-autoprefixer-hmr-postcss-css-modules-eslint-proxy-boilerplate",
   "main": "bin/server",
   "scripts": {
     "clean": "rm -rf ./dist",
     "predev": "npm run clean",
     "prebuild": "npm run clean",
     "dev": "better-npm-run dev",
-    "build": "better-npm-run build"
+    "build": "better-npm-run build",
+    "server": "better-npm-run server"
   },
   "betterScripts": {
     "dev": {
@@ -34,7 +35,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/houjiazong/react-redux-boilerplate.git"
+    "url": "git+https://github.com/houjiazong/react-redux-rrsr-boilerplate.git"
   },
   "keywords": [
     "webpack",
@@ -47,14 +48,16 @@
     "css-modules",
     "react-boilerplate",
     "redux-boilerplate",
-    "react-redux-boilerplate"
+    "react-redux-boilerplate",
+    "react-redux-rrsr-boilerplate",
+    "isomorphic-rendering"
   ],
   "author": "houjiazong@gmail.com",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/houjiazong/react-redux-boilerplate/issues"
+    "url": "https://github.com/houjiazong/react-redux-rrsr-boilerplate/issues"
   },
-  "homepage": "https://github.com/houjiazong/react-redux-boilerplate#readme",
+  "homepage": "https://github.com/houjiazong/react-redux-rrsr-boilerplate#readme",
   "devDependencies": {
     "autoprefixer": "^6.5.1",
     "babel-core": "^6.18.2",
