@@ -11,7 +11,7 @@ from 'react-router-redux'
 import thunk from 'redux-thunk'
 import reducers from '../reducers'
 
-export default (initialState = window.__REDUX_STATE__ ? JSON.parse(window.__REDUX_STATE__) : {}, history) => {
+export default (initialState = {}, history) => {
   // ======================================================
   // Middleware Configuration
   // ======================================================
