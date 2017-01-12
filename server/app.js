@@ -23,7 +23,7 @@ nunjucks.configure(path.join(__dirname, '../dist'), {
 })
 app.set('view engine', 'html')
 
-app.use(express.static(path.join(__dirname, '/dist')))
+app.use(express.static(path.join(__dirname, '../dist')))
 
 app.all('/api/*', proxy({
   target: config.PROXY_HOST,
