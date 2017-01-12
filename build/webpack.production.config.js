@@ -48,7 +48,7 @@ module.exports = {
       {
         test: /\.scss$/,
         exclude: path.resolve(__dirname, '../src/styles'),
-        loader: ExtractTextPlugin.extract('style', 'css?modules&importLoaders=1&localIdentName=[local]_[hash:base64:8]!postcss!sass')
+        loader: ExtractTextPlugin.extract('style', `css?modules&importLoaders=1&localIdentName=${config.CSS}!postcss!sass`)
       }
     ]
   },
